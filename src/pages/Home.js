@@ -1,12 +1,17 @@
-import React from "react";
-import Collapse from "../components/Collapse";
-import Logo from "../components/Logo";
+import Banner from "../components/Banner";
+// import Apartments from "../components/Apartments";
+import useFetch from "../components/useFetch";
+import Card from "../components/Card";
 
 const Home = () => {
+  // const { data, aparts, error } = useFetch("https://localhost:3000");
+
   return (
-    <div>
-      <Collapse />
-      <Logo />
+    <div className="aparts">
+      {error && <div>{error}</div>}
+      {/* {aparts && <Apartments />} */}
+      <Banner />
+      <Card />
     </div>
   );
 };

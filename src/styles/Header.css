@@ -1,0 +1,16 @@
+
+.header {
+    margin: auto 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+           
+.navhome .link {
+    color:#FF6060;
+     margin-left: 16px;
+    font-size: 20px;
+}
+           
+

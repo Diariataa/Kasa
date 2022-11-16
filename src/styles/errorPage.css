@@ -1,0 +1,17 @@
+.error{
+    display: flex;
+    flex-direction: column;
+}
+.error h1{
+    display: flex;
+    justify-content: center;
+    color: #FF6060;
+    font-size:100px;
+}
+
+.error p{
+    color:#FF6060;
+}
+.error a{
+    color:#FF6060;  
+}
