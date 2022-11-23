@@ -1,0 +1,28 @@
+
+
+.slider {
+  position: relative;
+
+    height: 415px;
+    width: 100%;
+
+    }
+
+.slide-picture {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+.goToPrevious .goToNext {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+  }
+
+  .goToNext  {
+    right: 0;
+  }
+
+ 

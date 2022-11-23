@@ -9,7 +9,7 @@ const Home = () => {
     <div className="Home">
       {" "}
       <Banner image={bannerHome} title="Chez vous,  et partout ailleurs" />
-      <div className="all-cards">
+      <div className="aparts">
         {Logements.map((item) => {
           return (
             <Card

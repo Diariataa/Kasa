@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import "./styles/normalize.css";
+import "./styles/styles.css";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Error from "./pages/errorPage";

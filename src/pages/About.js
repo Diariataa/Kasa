@@ -8,7 +8,6 @@ const About = () => {
   return (
     <div className="about">
       <Banner image={banner} title="" />
-      <Collapse />
       <div className="drop">
         {aboutData.map((data, index) => {
           return (
