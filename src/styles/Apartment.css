@@ -1,0 +1,77 @@
+/* .apartment-display .display-slideshow {
+        margin: 27px 0 15px 0;
+    }
+    
+.display-details {
+    display: flex;
+    flex-direction: column;
+    }
+
+.apartments-details {
+        margin-top: 5px;
+        }
+
+.aparments-left .title-location h1
+            {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 26px;
+              
+            }
+
+.aparments-left .title-location h2 {
+     font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+               
+        }
+        .apartments-right  .apartments-host {
+                margin: 6px 0 16px 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                }
+                .apartments-rating {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 98px;
+                    height: 18px;
+                }
+                .apartment-host{
+                    display: flex;
+                    align-items: center;
+                }
+                    span {
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 17px;
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        text-align: right;
+                        width: 80px;
+                        height: 33px;
+                    }
+  img {
+     margin-left: 11px;
+     width: 32px;
+                        height: 32px;
+ border-radius: 50%;}                                     
+
+    .apartments-collapses {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    
+        }
+
+        .apartments-description {
+            width: 100%;
+        }
+        .apartments-quipements {
+            width: 100%;
+          
+    }
+ */

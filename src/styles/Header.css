@@ -1,16 +1,17 @@
-
 .header {
-    margin: auto 0;
+    margin: auto 25px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 20px;
+
 }
            
 .navhome .link {
     color:#FF6060;
      margin-left: 16px;
-    font-size: 20px;
+    font-size: 24px;
 }
            
 

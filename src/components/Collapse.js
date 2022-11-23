@@ -1,40 +1,25 @@
-// import React, { useState } from "react";
-// import "../styles/Collapse.css";
-// import { FaChevronUp, FaChevronDown } from "react-icons/fa";
+import React, { useState } from "react";
+import "../styles/Collapse.css";
+import arrow from "../assets/images/arrowUp.png";
 
-// const Collapse = () => {
-//   const [clicked, setClicked] = useState(false);
+const Collapse = (props) => {
+  const [isActive, setIsActive] = useState(false);
+  return (
+    <div className="drops">
+      <div
+        className={`collapse-content ${!isActive ? "content-margin" : ""}`}
+        onClick={() => setIsActive(!isActive)}
+      >
+        <div className="collapse-title">{props.title}</div>
+        <img
+          className={`arrow-up ${isActive ? "arrow-down" : ""}`}
+          src={arrow}
+          alt=""
+        />
+      </div>
+      <div className={isActive ? "show animated" : "hide"}>{props.content}</div>
+    </div>
+  );
+};
 
-//   const toggle = (index) => {
-//     if (clicked === index) {
-//       // si le bouton cliquer est actif alors fermer
-//       return setClicked(null);
-//     }
-//     setClicked(index);
-//   };
-//   return (
-//     <Container>
-//       <Wrap onClick={() => toggle(index)} key={index}>
-//         <h3>{title}</h3>
-//         <span>{clicked === index ? FaChevronDown : FaChevronUp}</span>
-//         <ul>
-//           {props.map((item, index) => (
-//             <li key={index}>{item}</li>
-//           ))}
-//         </ul>
-//       </Wrap>
-//       <DropDown></DropDown>
-//     </Container>
-//   );
-// };
-// //   drops.map((drop, index)=> {
-// //     key = {index}, collapse = {drop.collapse}
-// //   })
-// //   return (
-// //     <article>
-
-// //     </article>
-// //   );
-// // };
-
-// // export default Collapse;
+export default Collapse;

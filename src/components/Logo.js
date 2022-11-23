@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <div>
       <div className="logo">
-        <img src={logo} alt="logo kasa" />
+        <img fill="#FF6060" src={logo} alt="logo kasa" />
       </div>
     </div>
   );
