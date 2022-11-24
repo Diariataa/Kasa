@@ -1,0 +1,9 @@
+.ratingRed, .ratingGrey{
+    width: 20px;
+}
+@media screen and (min-width:600px){
+    .ratingRed, .ratingGrey{
+        width: 30px;
+        object-fit: fill;
+    }
+}

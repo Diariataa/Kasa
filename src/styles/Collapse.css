@@ -3,37 +3,42 @@
   justify-content: space-between;
   align-items: center;
   background-color: #FF6060;
-  border-radius: 10px;
-  height:50px;
+  border-radius: 7px;
+  height:37px;
   color:#fff;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding-left: 10px;
+  position: relative;
+  z-index:1;
   }
 
 .content-margin{
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .show{
 display: flex;
 flex-direction: column;
 background-color: rgb(245, 240, 240);
-border-radius: 0 0 7px;
+border-radius: 10px;
 padding: 20px 20px 35px 20px;
 margin-bottom: 30px;
 font-size: 18px;
+color:#FF6060;
+margin-top: -10px;
 }
 
 .arrow-up{
   padding-right: 10px;
+  height:13px
 }
 
-  .arrow-down{
+.arrow-down{
     padding-left: 10px;
     transform: rotate(180deg);
   }
   
-  .hide {
-    display: none;
+.hide {
+  display: none;
   }

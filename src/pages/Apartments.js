@@ -7,15 +7,22 @@ import Host from "../components/Host";
 import Tags from "../components/Tag";
 import Collapse from "../components/Collapse";
 import "../styles/Apartment.css";
+import Home from "../pages/Home";
 const Apartments = () => {
   const { id } = useParams();
   const apartments = logements.find((apartment) => apartment.id === id);
+  if (apartments === undefined)
+    return (
+      <main>
+        <Home />
+      </main>
+    );
 
   return (
     <section className="apartments-display">
       {/* Afficher le carousel */}
       <div className="display-slideshow">
-        {/* {/* <Slideshow pictures={apartments.pictures} /> */}
+        <Slideshow pictures={apartments.pictures} />
       </div>
       {/* Afficher les noms du logement */}
       <div className="apartments-details">

@@ -1,28 +1,43 @@
-
-
 .slider {
   position: relative;
-
-    height: 415px;
-    width: 100%;
-
-    }
+  width: 100%;
+}
+.slider .slide-unmove{
+  height: 400px;
+ }
 
 .slide-picture {
     width: inherit;
     height: inherit;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 1rem;
+    object-position: center center;
+    
+  height: 400px;
+  width: 100%;
+   
   }
 
-.goToPrevious .goToNext {
-    position: absolute;
-    top: 50%;
-    transform: translate(0%, -50%);
+.goToPrevious {
+    
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
   }
 
   .goToNext  {
     right: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    
   }
 
- 
+ .arrow-left{
+    margin-left: 5px;
+
+ }
+
+ .arrow-right{
+    margin-right: 5px;
+ }

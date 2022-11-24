@@ -1,0 +1,17 @@
+.tags{
+    display: flex;
+    flex: wrap;
+}
+
+.tags span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #FF6060;
+    border-radius: 6px;
+    padding: 6px;
+    font-weight: 500;
+    line-height: 14px;
+    margin-right:5px;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Host.css";
 
 const Host = ({ name, picture }) => {
   return (

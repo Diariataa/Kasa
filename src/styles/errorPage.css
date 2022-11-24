@@ -3,15 +3,17 @@
     flex-direction: column;
 }
 .error h1{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     color: #FF6060;
     font-size:100px;
 }
 
 .error p{
     color:#FF6060;
+    font-size: 50px;
+    text-align: center;
 }
 .error a{
     color:#FF6060;  
+    text-align: center;
 }

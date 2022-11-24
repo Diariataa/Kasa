@@ -10,8 +10,19 @@
            
 .navhome .link {
     color:#FF6060;
-     margin-left: 16px;
-    font-size: 24px;
+    margin-left: 16px;
+    font-size: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight :550;
 }
            
+.navhome .link:hover{
+    text-decoration: underline;
+}
 
+@media screen and (min-width:900px) {           
+    .navhome .link {
+    text-transform: capitalize;
+    }
+}
