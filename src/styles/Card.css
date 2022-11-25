@@ -1,5 +1,4 @@
 .cards{
-    margin: auto 20%;
     margin-top: 42px;
     position: relative;
 }
@@ -11,7 +10,7 @@
  .resize{
     height: 300px;
     width:100%;
-    min-width: 560px;
+    max-width: 670px;
     border-radius: 10px;
     box-shadow: 1px 1px 1px grey;
     object-fit: cover;
@@ -19,7 +18,7 @@
  
 .title {
     position: relative;
-    font-size: 22px;
+    font-size: 16px;
     background-color: transparent;
     color : #FFF;
     bottom: 60px;
@@ -30,9 +29,22 @@
     position:absolute;
     z-index: 1;
     bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
     }
     
 
+    @media screen and (min-width: 500px) and (max-width: 900px) {
+        .cards{
+            margin: auto 20%;
+        }
+        .resize{
+            min-width: 510px;
+        }
+        .title{
+            font-size:21px;
+        }
+    }
 
 @media screen and (min-width: 900px) {
     .cards{
@@ -42,9 +54,11 @@
    .resize{
        height: 300px;
        width:100%;
-       max-width: 400px;
+       max-width: 350px;
        min-width: 10px;
    }
- 
+.title{
+    font-size:21px;
+}
     
 }

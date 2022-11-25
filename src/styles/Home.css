@@ -7,6 +7,8 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: auto 20px;
+    margin-bottom:50px;
+   margin-top:50px;
     }
 .link{
     border-radius: 10px;
@@ -17,8 +19,7 @@
 
 @media screen and (min-width:900px) {
     .apparts{
-       margin-top:50px;
-       margin-bottom:50px;
+       
        background-color:  #F7F7F7;
        padding: 40px 0;
        border-radius: 20px;

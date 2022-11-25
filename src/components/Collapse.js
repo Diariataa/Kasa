@@ -5,6 +5,15 @@ import arrow from "../assets/images/arrowUp.png";
 const Collapse = (props) => {
   const [isActive, setIsActive] = useState(false);
 
+  const getContent = () => {
+    if (Array.isArray(props.content)) {
+      return props.content.map((item, index) => (
+        <li key={`item-${index}`}>{item}</li>
+      ));
+    }
+    return <p>{props.content}</p>;
+  };
+
   return (
     <div className="drops">
       <div
@@ -18,7 +27,7 @@ const Collapse = (props) => {
           alt=""
         />
       </div>
-      <div className={isActive ? "show animated" : "hide"}>{props.content}</div>
+      <div className={isActive ? "show animated" : "hide"}>{getContent()}</div>
     </div>
   );
 };

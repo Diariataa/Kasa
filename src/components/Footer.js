@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="footer">
-      <Link className="footerLogo" to="/">
+      <Link className="footerLogo">
         <img src={logo} alt="logo" />
       </Link>
       <span> © Kasa 2020. All rights reserved</span>

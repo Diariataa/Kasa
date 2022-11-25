@@ -6,7 +6,7 @@
   border-radius: 7px;
   height:37px;
   color:#fff;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 1.3rem;
   padding-left: 10px;
   position: relative;
@@ -43,4 +43,7 @@ margin-top: -10px;
 }
 
   
- 
+li {
+  list-style: none;
+  padding-top: 3px;
+}
