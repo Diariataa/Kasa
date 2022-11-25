@@ -35,9 +35,13 @@
 
  .arrow-left{
     margin-left: 5px;
+    transition: 1s ease-in-out;
 
  }
 
+ .arrow-left:hover, .arrow-right:hover{
+     width: 57px;
+ }
  .arrow-right{
     margin-right: 5px;
  }
@@ -51,12 +55,12 @@
  }
 
  .counter p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
     font-size: 30px;
-   font-weight: 500;
-   margin-bottom: 24px;
-   margin: 0;
-   display: flex;
-        justify-content: center;
-        align-items: center;
+    font-weight: 500;
+    margin-bottom: 24px;
+    margin: 0;
  }

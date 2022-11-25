@@ -1,19 +1,22 @@
 .cards{
     margin: auto 20%;
     margin-top: 42px;
-    
     position: relative;
 }
-
+.cards:hover{
+    box-shadow: 1px 1px -1px rgb(9, 6, 6);
+    transform: scale(1.02);
+    border-radius: 10px;
+}
  .resize{
     height: 300px;
     width:100%;
-    max-width: 600px;
+    min-width: 560px;
     border-radius: 10px;
-    box-shadow: 2px 1px 1px grey;
+    box-shadow: 1px 1px 1px grey;
+    object-fit: cover;
  }
- .cards .card-image{
- }
+ 
 .title {
     position: relative;
     font-size: 22px;
@@ -24,12 +27,9 @@
     padding-left: 10px;
     font-weight: bold;
     width: 100%;
-
-   
-        position:absolute;
-        z-index: 10;
-        bottom: 15px;
-        left: 20px;
+    position:absolute;
+    z-index: 1;
+    bottom: 15px;
     }
     
 
@@ -37,14 +37,13 @@
 @media screen and (min-width: 900px) {
     .cards{
        margin: auto 10px;
-       row-gap: 10%;
-       column-gap: 10%;
     }
     
    .resize{
        height: 300px;
        width:100%;
        max-width: 400px;
+       min-width: 10px;
    }
  
     

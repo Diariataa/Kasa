@@ -57,10 +57,10 @@ const Apartments = () => {
         </div>
         <div className="apartments-equipments">
           <Collapse
-            content={logements.map((data, index) => (
-              <li key={index}>{data.equipments}</li>
+            content={logements.map((equipment, index) => (
+              <li key={index}>{equipment.equipments}</li>
             ))}
-            title={"Equipments"}
+            title={"Equipements"}
           />
         </div>
       </div>

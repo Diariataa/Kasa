@@ -11,11 +11,11 @@
            
 .navhome .link {
     color:#FF6060;
-    margin-left: 16px;
-    font-size: 19px;
+    margin-left: 40px;
+    font-size: 22px;
     text-transform: uppercase;
     text-decoration: none;
-    font-weight :550;
+    font-weight :500;
 }
            
 .navhome .link:hover{

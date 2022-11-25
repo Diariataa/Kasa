@@ -9,7 +9,7 @@
 }
 
 .apartments-title h2 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 20px;
     margin-top: -6px;
@@ -56,6 +56,9 @@
 }
 
 @media screen and (min-width: 900px){
+    .apartments-title h1, .apartments-title h2 {
+        font-size: 30px;
+    }
     .apartments-collapses{
         display: flex;
         justify-content: space-between ;

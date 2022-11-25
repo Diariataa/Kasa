@@ -3,6 +3,13 @@
 }
 @media screen and (min-width:600px){
     .ratingRed, .ratingGrey{
+        width: 27px;
+        object-fit: fill;
+    }
+}
+
+@media screen and (min-width:900px){
+    .ratingRed, .ratingGrey{
         width: 30px;
         object-fit: fill;
     }

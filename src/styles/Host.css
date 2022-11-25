@@ -1,5 +1,4 @@
 .host-name span{
    font-size: 18px;
-   min-height: 20px;
-   max-width: 15px
+   width: 100%;
 }
