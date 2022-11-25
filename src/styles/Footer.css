@@ -7,8 +7,9 @@
     flex-wrap:wrap;
     color: #fff;
     height:150px;
-    margin-top: 50px;
-    padding-top: 50px;
+    justify-content: center;
+    font-size: 22px;
 
 }
+
 

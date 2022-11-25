@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    flex-wrap: wrap;
 
 }
            
@@ -19,6 +20,12 @@
            
 .navhome .link:hover{
     text-decoration: underline;
+}
+
+@media screen and (max-width:500px){
+    .navhome .link{
+        font-size: 14px;
+}
 }
 
 @media screen and (min-width:900px) {           

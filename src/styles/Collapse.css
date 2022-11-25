@@ -18,17 +18,15 @@
 }
 
 .show{
-display: flex;
-flex-direction: column;
-background-color: rgb(245, 240, 240);
+background-color:  #F7F7F7;
 border-radius: 10px;
 padding: 20px 20px 35px 20px;
 margin-bottom: 30px;
 font-size: 18px;
 color:#FF6060;
 margin-top: -10px;
-}
 
+}
 .arrow-up{
   padding-right: 10px;
   height:13px
@@ -41,4 +39,7 @@ margin-top: -10px;
   
 .hide {
   display: none;
-  }
+}
+
+  
+ 

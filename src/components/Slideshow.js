@@ -15,10 +15,6 @@ const Slideshow = ({ pictures }) => {
     const newIndex = isLastSlide ? 0 : currentIndex + 1;
     setCurrentIndex(newIndex);
   };
-  // const slideStylesWidthBackground = {
-  //   ...slideStyles,
-  //   backgroundImage: `picture(${slides[currentIndex].picture})`,
-  // };
 
   return (
     <div className="slider">
@@ -42,6 +38,11 @@ const Slideshow = ({ pictures }) => {
         <div>
           <div className="goToPrevious" onClick={goToPrevious}>
             <img className="arrow-left" src={arrowLeft} alt="" />
+          </div>
+          <div className="counter">
+            <p>
+              {currentIndex + 1} / {pictures.length}
+            </p>
           </div>
           <div className="goToNext" onClick={goToNext}>
             <img className="arrow-right" src={arrowRight} alt="" />

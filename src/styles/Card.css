@@ -1,16 +1,18 @@
 .cards{
-    margin: auto 10%;
-    row-gap: 20px;
-    column-gap: 10px;
+    margin: auto 20%;
     margin-top: 42px;
+    
+    position: relative;
 }
 
  .resize{
     height: 300px;
     width:100%;
-    
+    max-width: 600px;
     border-radius: 10px;
     box-shadow: 2px 1px 1px grey;
+ }
+ .cards .card-image{
  }
 .title {
     position: relative;
@@ -21,14 +23,29 @@
     text-decoration: none;
     padding-left: 10px;
     font-weight: bold;
+    width: 100%;
 
-}
+   
+        position:absolute;
+        z-index: 10;
+        bottom: 15px;
+        left: 20px;
+    }
+    
 
-@media screen and (min-width:800px) {
+
+@media screen and (min-width: 900px) {
     .cards{
-    display: flex;
+       margin: auto 10px;
+       row-gap: 10%;
+       column-gap: 10%;
     }
-    .resize{
-        width:20%;
-    }
+    
+   .resize{
+       height: 300px;
+       width:100%;
+       max-width: 400px;
+   }
+ 
+    
 }

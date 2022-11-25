@@ -7,14 +7,14 @@ import Host from "../components/Host";
 import Tags from "../components/Tag";
 import Collapse from "../components/Collapse";
 import "../styles/Apartment.css";
-import Home from "../pages/Home";
+import Error from "../pages/errorPage";
 const Apartments = () => {
   const { id } = useParams();
   const apartments = logements.find((apartment) => apartment.id === id);
   if (apartments === undefined)
     return (
       <main>
-        <Home />
+        <Error />
       </main>
     );
 
@@ -56,7 +56,12 @@ const Apartments = () => {
           <Collapse content={apartments.description} title={"Description"} />
         </div>
         <div className="apartments-equipments">
-          <Collapse content={apartments.equipments} title={"Equipements"} />
+          <Collapse
+            content={logements.map((data, index) => (
+              <li key={index}>{data.equipments}</li>
+            ))}
+            title={"Equipments"}
+          />
         </div>
       </div>
     </section>

@@ -4,6 +4,7 @@ import arrow from "../assets/images/arrowUp.png";
 
 const Collapse = (props) => {
   const [isActive, setIsActive] = useState(false);
+
   return (
     <div className="drops">
       <div

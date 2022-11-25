@@ -41,3 +41,22 @@
  .arrow-right{
     margin-right: 5px;
  }
+ .counter {
+  position: absolute;
+  bottom: 6px;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  z-index: 1;
+ }
+
+ .counter p{
+    color: #fff;
+    font-size: 30px;
+   font-weight: 500;
+   margin-bottom: 24px;
+   margin: 0;
+   display: flex;
+        justify-content: center;
+        align-items: center;
+ }
