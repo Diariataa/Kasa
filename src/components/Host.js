@@ -1,13 +1,16 @@
 import React from "react";
 import "../styles/Host.css";
 
-const Host = ({ name, picture }) => {
+const Host = (host) => {
+  const name = host.name.split(" ");
+  const [firstName, lastName] = name;
   return (
     <div className="host">
       <div className="host-name">
-        <span>{name}</span>
+        <span>{firstName}</span>
+        <span>{lastName}</span>
       </div>
-      <img src={picture} alt="" className="host-picture" />
+      <img src={host.picture} alt="" className="host-picture" />
     </div>
   );
 };

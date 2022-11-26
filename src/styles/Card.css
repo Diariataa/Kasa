@@ -6,6 +6,8 @@
     box-shadow: 1px 1px -1px rgb(9, 6, 6);
     transform: scale(1.02);
     border-radius: 10px;
+    background-color: grey;
+    cursor: pointer;
 }
  .resize{
     height: 300px;

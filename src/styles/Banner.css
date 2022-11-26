@@ -11,30 +11,29 @@
     background-position: bottom center;
     z-index: -1;
     box-shadow: 1px 1px 1px lightgrey;
+    top:20%;
    
 }
 
 .bannerImage h3{
     position: absolute;
-    z-index: 10;
-    font-weight: 700;
-    color:#FFF;
-    margin: auto 35%;
-    font-size: 30px;
-    text-align: center;
-    top: 25%;
-
+    margin: auto 33%;
+    top: 30%;
+    transform: translate(0%, -50%);
+    color: white;
+    font-size: 1.4rem;
     
 }
 @media screen and (min-width:900px) {
     .bannerImage h3{
-        top:28%;
-    margin: auto 25%;
-    font-size: 35px;
+       margin: auto 25%;
+       font-size: 35px;
     }
 }
 
 @media screen and (min-width:1000px) {
     .bannerImage h3{
         margin: auto 33%;
+        
+        
     }}

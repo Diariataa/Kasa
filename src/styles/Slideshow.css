@@ -12,9 +12,8 @@
     object-fit: cover;
     border-radius: 1rem;
     object-position: center center;
-    
-  height: 400px;
-  width: 100%;
+    height: 400px;
+    width: 100%;
    
   }
 
@@ -41,6 +40,8 @@
 
  .arrow-left:hover, .arrow-right:hover{
      width: 57px;
+     
+    cursor: pointer;
  }
  .arrow-right{
     margin-right: 5px;
